@@ -1,0 +1,1 @@
+alias terraform="docker run --name terraform -v ${PWD}:/ -i -t hashicorp/terraform:latest  $@" 
